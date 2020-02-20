@@ -14,7 +14,7 @@
   },
   "legend": {
     "edgeLabel": "Edge = Social/Spatial Connection",
-    "colorLabel": "Blue = Prevalent HIV+ (Undetectable VL); Red = Incident HIV+; Yellow = Prevalent HIV+ (Detectable VL); Black = HIV-; Purple = Spatial Hotspot",
+    "colorLabel": "Blue = Prevalent HIV-Positive (Undetectable VL); Red = Incident HIV-Positive; Yellow = Prevalent HIV-Positive (Detectable VL); Black = HIV-Negative; Purple = Spatial Hotspot",
     "nodeLabel": "Node = Individual or Hotspot"
   },
   "features": {
