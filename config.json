@@ -3,19 +3,19 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "https://raw.githubusercontent.com/sclipman/SociospatialNet/master/images/spatial.png",
+    "file": "https://www.dropbox.com/s/7mkncoru2dae7bc/spatial.png",
     "link": "",
     "text": "Steven J. Clipman"
   },
   "text": {
-    "more": "Created by: Steven J. Clipman, MSPH | PhD candidate at Johns Hopkins University",
-    "intro": "This is an interactive sociospatial network visualization of 2,512 people who inject drugs in New Delhi, India. Nodes are colored by infection status and sized by degree. Purple nodes dennote local injection hotspots and are arranged to be geospatially congruent with their real-world location. Person nodes are arranged by a degree-dependent force-directed algorithm. Edges represent a social connection, i.e. self-reported injection partners, or a spatial connection to an injection hotspot.",
-    "title": "Delhi Sociospatial Injection Network - HIV Incidence"
+    "more": "This is an interactive sociospatial network visualization of 2,512 people who inject drugs in New Delhi, India. It was created by Steven J. Clipman, a PhD candidate at the Johns Hopkins University. ",
+    "intro": "Sociospatial network of 2,512 people who inject drugs in New Delhi, India\n\nCreated by: Steven J. Clipman, MSPH\nPhD Candidate at Johns Hopkins University\nhttps://www.github.com/sclipman\n\n",
+    "title": "Delhi Sociospatial Injection Network"
   },
   "legend": {
-    "edgeLabel": "Edge = Social/Spatial Connection",
-    "colorLabel": "Blue = Prevalent HIV-Positive (Undetectable VL); Red = Incident HIV-Positive; Yellow = Prevalent HIV-Positive (Detectable VL); Black = HIV-Negative; Purple = Spatial Hotspot",
-    "nodeLabel": "Node = Individual or Hotspot"
+    "edgeLabel": "Injection Partner",
+    "colorLabel": "Blue : Prevalent HCV, Red: Prevalent HIV, Yellow: Prevalent Co-infection, Purple: Spatial Hotspot",
+    "nodeLabel": "Individual"
   },
   "features": {
     "search": true,
@@ -23,7 +23,7 @@
     "hoverBehavior": "dim"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
+    "groupByEdgeDirection": true,
     "imageAttribute": false
   },
   "sigma": {
@@ -40,8 +40,8 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 1.5,
-      "minEdgeSize": 1.5,
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
       "minNodeSize": 1,
       "maxNodeSize": 7
     },
